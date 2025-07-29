@@ -4,13 +4,15 @@
   "main": "pdf_text_extractor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node pdf_text_extractor.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
     "pdf-parse": "^1.1.1"
   }
 }
